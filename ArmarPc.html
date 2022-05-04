@@ -5,113 +5,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/0aec9a8ef2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/estiloArmarPc.css" type="text/css">
+    <link rel="stylesheet" href="css1/estiloArmarPc.css" type="text/css">
+    <link rel="shortcut icon" type="image/ico" href="img/equipo.ico">
+    <link rel="stylesheet" href="css1/normalize.css">
+    <link rel="stylesheet" href="css1/fonts.css">
+    <link rel="stylesheet" href="css1/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Water+Brush&display=swap"
+        rel="stylesheet">
     <title>Arma tu pc</title>
 </head>
 
 <body>
     <main>
-        <header class="header1">
-            <div class="header-left-logo">
-                <a href=""><img src="img/logo.png" alt=""></a>
-            </div>
-            <nav class="menu">
-                <ul>
-                    <li>Inicio</li>
-                    <li>Presupuesto Personalizado</li>
-                </ul>
-            </nav>
-            <div class="header-rigth-icon">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <i class="fa-solid fa-magnifying-glass"></i>
+        <header>
+            <div class="barra bg-nav">
+                <a href="index.html"><img class="imagen-logo" src="img/logo.png" alt="LogoEmpresa"></a>
+                <span style="color: white;"> </span>
+                <nav>
+                    <div class="flexcaja-texto">
+                        <div class="efecto-click">
+                            <a href="index.html" class="nav-texto">Inicio</a>
+                        </div>
+                        <div class="efecto-click">
+                            <a href="Presupuesto.html" class="nav-texto">Presupuesto</a>
+                        </div>
+                    </div>
+                </nav>
             </div>
         </header>
         <section>
-            <h1>¡Arma tu PC como quieras!</h1>
             <div>
-                <ul>
-                    <li>Procesador</li>
-                    <li>Refrigeración para Procesador</li>
-                    <li>Placa Madre</li>
-                    <li>Ram</li>
-                    <li>Tarjeta de video</li>
-                    <li>Almacenamiento S.O.</li>
-                    <li>Almacenamiento Secundario</li>
-                    <li>Gabinete</li>
-                    <li>Monitores</li>
-                    <li>Teclados</li>
-                    <li>Mouse</li>
-                    <li>Armado de PC</li>
-                </ul>
+                <img id="pc-Image-principal" src="ImgArmadoPc/PC.jpg" alt="">
             </div>
-            <div>
-                <img src="img/pc.png" alt="">
+            <h2 id="banner">¡Arma tu PC como quieras!</h2>
+            <div id="wrapper">
+                <button type="button" id="btnIniciar">Iniciar</button>
             </div>
-            <aside>
-                <!--Aqui ya va todo los componentes-->
-            </aside>
         </section>
-        <footer class="footer-03">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-4 mb-md-0 mb-4">
-                                <h2 class="footer-heading">Nosotros</h2>
-                                <ul class="list-unstyled">
-                                    <li><a href="#" class="py-1 d-block">ADA</a></li>
-                                    <li><a href="#" class="py-1 d-block">AD</a></li>
-                                    <li><a href="#" class="py-1 d-block">DA</a></li>
-                                    <li><a href="#" class="py-1 d-block">SD</a></li>
-                                    <li><a href="#" class="py-1 d-block">DA</a></li>
-                                    <li><a href="#" class="py-1 d-block">ASD</a></li>
-                                </ul>
-                            </div>
+        <footer class="text-center text-lg-start bg-light text-muted ">
+            <hr>
+            <div class="bg-color-footer"></div>
+            <section class="mr-derecha">
+                <div class="container text-center text-md-start mt-5">
+                    <div class="row mt-3">
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 ">
+                            <h4 class="text-uppercase fw-bold mb-4">
+                                <i class="fas fa-gem me-3"></i>TECNOempresa
+                            </h4>
+                            <p>
+                                Empresa dedicada a la contización y venta de articulos tecnologicos para computadoras.
+                            </p>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="row justify-content-end">
-                            <div class="col-md-12 col-lg-11 mb-md-0 mb-4">
-                                <h2 class="footer-heading">Siguenos</h2>
-                                <ul class="ftco-footer-social p-0">
-                                    <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top"
-                                            title="Twitter"><span class="ion-logo-twitter"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top"
-                                            title="Facebook"><span class="ion-logo-facebook"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top"
-                                            title="Instagram"><span class="ion-logo-instagram"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top"
-                                            title="Linkedin"><span class="ion-logo-linkedin"></span></a></li>
-                                </ul>
-                                <h2 class="footer-heading mt-5">¡Recibe actualizaciones sobre nuestra pagina!</h2>
-                                <form action="#" class="subscribe-form">
-                                    <div class="form-group d-flex">
-                                        <input type="text" class="form-control rounded-left"
-                                            placeholder="Ingresa tu email.">
-                                        <input type="submit" value="Suscribete"
-                                            class="form-control submit px-3 rounded-right">
-                                    </div>
-                                </form>
-                            </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h4 class="text-uppercase fw-bold mb-4">
+                                Sobre Nosotros
+                            </h4>
+                            <p>
+                                <a href="#!" class="text-reset">Privacidad</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Medio de pago</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Garantia</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Politica</a>
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <h4 class="text-uppercase fw-bold mb-4">
+                                Contacto
+                            </h4>
+                            <p><i class="fas fa-home me-3"></i> ICA, San Francisco, Perú</p>
+                            <p>
+                                <i class="fas fa-envelope me-3"></i>
+                                TECNO@gmail.com
+                            </p>
+                            <p><i class="fas fa-phone me-3"></i> + 51 958248856</p>
                         </div>
                     </div>
                 </div>
-                <div class="row mt-5 pt-4 border-top">
-                    <div class="col-md-6 col-lg-8">
-                        <p class="copyright">
-                            Copyright &copy;
-                            <script>document.write(new Date().getFullYear());</script> All rights reserved.
-                        </p>
-                    </div>
-                    <div class="col-md-6 col-lg-4 text-md-right">
-                        <p class="mb-0 list-unstyled">
-                            <a class="mr-md-3" href="#">Terminos y condiciones.</a>
-                        </p>
-                    </div>
-                </div>
+            </section>
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2021 Copyright:
+                <a class="text-reset fw-bold" href="">TECNOempresa.com</a>
             </div>
         </footer>
+
+        <div class="social-bar">
+            <a href="https://www.facebook.com" class="icon icon-facebook" target="_blank"></a>
+            <a href="https://twitter.com" class="icon icon-twitter" target="_blank"></a>
+            <a href="https://www.youtube.com" class="icon icon-youtube" target="_blank"></a>
+            <a href="https://www.instagram.com" class="icon icon-instagram" target="_blank"></a>
+        </div>
     </main>
 </body>
 
