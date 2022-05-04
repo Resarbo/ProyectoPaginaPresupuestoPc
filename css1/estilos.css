@@ -12,8 +12,8 @@ html{
         align-items: center;
         width: 100%;
         height: 6rem;
-        background-image: url('../img/HeaderIMGprovisional.jpg');
-        background-size: cover;
+        background-color: #4ab4dbcf;
+      
     }
     .imagen-logo{
         max-width: 100%;
@@ -22,22 +22,23 @@ html{
         padding-right: 3rem;
     }
     .bg-nav{
-        background-color: #CBC9C2 ;
+        background-color: #6dcaeced ;
     }
     header{ display: block;
     
     width: 100%;}
     
     .nav-texto{
-        color: white;
+        color: #575c61 ;
         
-        font-family: 'Water Brush', cursive;
+        font-family: 'Lato', sans-serif;
         font-size: 1.5rem;
         font-weight: bold;
         text-align: center;
         display: block;
         height: 6rem;
         padding: 2rem;
+
         
     }
     .mt-5 {
@@ -48,6 +49,8 @@ html{
     .bg-light {
         --bs-bg-opacity: 1;
         background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+        background-color: #6dcbeccf !important;
+       
     }
     .efecto-click :hover{
     background-color: #B4B2AD ;
@@ -68,20 +71,24 @@ html{
     
     
     }
-    
+    a{
+        text-decoration: none;
+    }
     .text-lg-start {
         text-align: left !important;
     }
     .contenedor{
         display: flex;
-        height: 100%;
-        width: 100%;
+        max-width: 100%;
         justify-content: space-between  ;
-        margin: 0 auto;
+        margin: 0 2rem;
+
+
         
     }
     .contenedor-caja{
-        margin-top: 6rem;
+     
+        margin: 5rem 1rem;
     }
     .text-center {
         text-align: center !important;
@@ -91,15 +98,16 @@ html{
         max-width: 100%;
         max-height: 100%;
         
+        
     }
     .text-muted {
         --bs-text-opacity: 1;
-        color: #6c757d !important;
+        color: #575c61 !important;
     }
     /*# sourceMappingURL=bootstrap.css.map */ 
     @media screen and (max-width: 900px) {
         .barra{
-        background: #CBC9C2;
+      
         width: 100%;
     
     
@@ -114,7 +122,7 @@ html{
         text-align: center;
         padding: 2vh;
         margin-right: 0;
-        font-size: 1.34rem;
+        font-size: 1rem;
         } 
     }
     .justify-content-center {
@@ -137,9 +145,11 @@ html{
     }
     .d-flex {
         display: flex !important;
+  
     }
     .justify-content-lg-between {
         justify-content: space-between !important;
+        margin: 0 auto;
     }
     .p-4 {
         padding: 1.5rem !important;
@@ -209,6 +219,10 @@ html{
         .mr-4{
             margin-left:10rem !important;
         }
+
+        .mr-derecha{
+            margin-left: 10rem;
+        }
     
         .col-md-3 {
         flex: 0 0 auto;
@@ -234,6 +248,7 @@ html{
     }
     .text-uppercase {
         text-transform: uppercase !important;
+        
     }
     
     
@@ -309,7 +324,7 @@ html{
 /*CLASES GLOBALES DE CSS para modificar*/
     body {
     margin: 0;
-    font-family: var(--bs-body-font-family);
+    font-family: 'Lato', sans-serif;
     font-size: var(--bs-body-font-size);
     font-weight: var(--bs-body-font-weight);
     line-height: var(--bs-body-line-height);
@@ -387,10 +402,11 @@ html{
     font-size: 1.4rem;
     margin-top: 0;
     margin-bottom: 1rem;
+    font-weight: 500;
     font-family: 'Lato', sans-serif;
     }
 
     span{
 
-        font-size: 1.4rem;
+        font-size: 1.34rem;
     }
